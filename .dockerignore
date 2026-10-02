@@ -1,0 +1,12 @@
+.env
+.venv
+.git
+.pytest_cache
+.ruff_cache
+build
+dist
+*.egg-info
+__pycache__
+tests
+artifacts
+Aron-EngineeringTakeHome.pdf

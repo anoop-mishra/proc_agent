@@ -1,0 +1,16 @@
+Supplier: Tri-State Metalcraft
+From: dmorrow@tristatemetalcraft.com
+To: karen@buyer.example
+Subject: RE: RFQ BRK-4471-A - lead time update
+Date: October 1, 2026 9:14 AM EDT
+
+Hi Karen,
+
+One update to our bracket quote: production can commit to 3 weeks from
+release instead of the 4 weeks in my original response.
+
+Everything else stays the same -- $4.85 per piece at 60,000 annually,
+5,000-piece minimum releases, $6,200 one-time tooling, FOB Cleveland,
+Net 30, and 90-day price validity.
+
+Dan

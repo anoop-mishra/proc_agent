@@ -1,0 +1,473 @@
+{
+  "analysis_id": "caad1cdb-3022-4680-a619-53179d245264",
+  "created_at": "2026-10-01T06:43:15.908225Z",
+  "rfq": {
+    "part_number": "BRK-4471-A",
+    "annual_volume": 60000,
+    "drawing_revision": null,
+    "destination": "Columbus, Ohio"
+  },
+  "assumptions": {
+    "target_currency": null,
+    "fx_rates": {},
+    "freight_by_source": {},
+    "duty_rate_by_source": {}
+  },
+  "normalized_quotes": {
+    "tri-state": {
+      "supplier_name": "Tri-State Metalcraft",
+      "part_number": "BRK-4471-A",
+      "drawing_revision": null,
+      "price_tiers": [
+        {
+          "minimum_quantity": 60000,
+          "maximum_quantity": null,
+          "unit_price": {
+            "amount": "4.85",
+            "currency": "USD"
+          }
+        }
+      ],
+      "moq": null,
+      "minimum_release_quantity": 5000,
+      "incoterm": "FOB",
+      "incoterm_location": "Cleveland supplier dock",
+      "tooling_cost": {
+        "amount": "6200",
+        "currency": "USD"
+      },
+      "tooling_notes": "One-time; invoiced on PO",
+      "deposit": null,
+      "deposit_refundable": null,
+      "production_lead_time": {
+        "minimum": "4",
+        "maximum": "4",
+        "unit": "weeks"
+      },
+      "transit_lead_time": null,
+      "payment_terms": "Net 30",
+      "quote_validity_days": 90,
+      "price_adjustment": null,
+      "freight_included": null,
+      "duty_included": null,
+      "packaging": null,
+      "inventory_commitment": null,
+      "finishing": "Anodizing performed in-house",
+      "notes": [],
+      "evidence": [
+        {
+          "field": "price_tiers",
+          "excerpt": "$4.85 per piece ... at your 60k annual number"
+        },
+        {
+          "field": "minimum_release_quantity",
+          "excerpt": "releases of 5,000 or more"
+        },
+        {
+          "field": "incoterm",
+          "excerpt": "FOB our dock in Cleveland"
+        },
+        {
+          "field": "tooling_cost",
+          "excerpt": "Tooling is $6,200, one time"
+        },
+        {
+          "field": "production_lead_time",
+          "excerpt": "Lead time 4 weeks from release"
+        }
+      ]
+    },
+    "nordkant": {
+      "supplier_name": "Nordkant Präzisionsteile GmbH",
+      "part_number": "BRK-4471-A",
+      "drawing_revision": "C",
+      "price_tiers": [
+        {
+          "minimum_quantity": 20000,
+          "maximum_quantity": 59999,
+          "unit_price": {
+            "amount": "4.30",
+            "currency": "EUR"
+          }
+        },
+        {
+          "minimum_quantity": 60000,
+          "maximum_quantity": 99999,
+          "unit_price": {
+            "amount": "3.92",
+            "currency": "EUR"
+          }
+        },
+        {
+          "minimum_quantity": 100000,
+          "maximum_quantity": null,
+          "unit_price": {
+            "amount": "3.71",
+            "currency": "EUR"
+          }
+        }
+      ],
+      "moq": null,
+      "minimum_release_quantity": null,
+      "incoterm": "DDP",
+      "incoterm_location": "Columbus, Ohio",
+      "tooling_cost": null,
+      "tooling_notes": "Included; amortized over first 40,000 pieces",
+      "deposit": {
+        "amount": "2800",
+        "currency": "EUR"
+      },
+      "deposit_refundable": true,
+      "production_lead_time": {
+        "minimum": "11",
+        "maximum": "11",
+        "unit": "weeks"
+      },
+      "transit_lead_time": null,
+      "payment_terms": "Net 60; 2% discount if paid within 10 days",
+      "quote_validity_days": 30,
+      "price_adjustment": "Quarterly LME aluminium index adjustment when movement exceeds 4%; base 2026 Q1",
+      "freight_included": true,
+      "duty_included": true,
+      "packaging": "Returnable steel containers",
+      "inventory_commitment": null,
+      "finishing": null,
+      "notes": [],
+      "evidence": [
+        {
+          "field": "drawing_revision",
+          "excerpt": "per customer drawing rev C"
+        },
+        {
+          "field": "price_tiers",
+          "excerpt": "60,000 pcs EUR 3.92 / pc"
+        },
+        {
+          "field": "incoterm",
+          "excerpt": "Delivery: DDP Columbus, Ohio"
+        },
+        {
+          "field": "deposit",
+          "excerpt": "deposit EUR 2,800 (refundable)"
+        },
+        {
+          "field": "price_adjustment",
+          "excerpt": "quarterly adjustment per LME aluminium index"
+        }
+      ]
+    },
+    "pacific-rim": {
+      "supplier_name": "Pacific Rim Components",
+      "part_number": "BRK-4471-A",
+      "drawing_revision": "B",
+      "price_tiers": [
+        {
+          "minimum_quantity": 25000,
+          "maximum_quantity": null,
+          "unit_price": {
+            "amount": "3.24",
+            "currency": "USD"
+          }
+        }
+      ],
+      "moq": 25000,
+      "minimum_release_quantity": null,
+      "incoterm": "FOB",
+      "incoterm_location": "Kaohsiung",
+      "tooling_cost": {
+        "amount": "4800",
+        "currency": "USD"
+      },
+      "tooling_notes": null,
+      "deposit": null,
+      "deposit_refundable": null,
+      "production_lead_time": {
+        "minimum": "9",
+        "maximum": "9",
+        "unit": "weeks"
+      },
+      "transit_lead_time": {
+        "minimum": "5",
+        "maximum": "5",
+        "unit": "weeks"
+      },
+      "payment_terms": "30% T/T deposit; 70% before shipment",
+      "quote_validity_days": null,
+      "price_adjustment": null,
+      "freight_included": false,
+      "duty_included": false,
+      "packaging": null,
+      "inventory_commitment": null,
+      "finishing": "Anodizing subcontracted",
+      "notes": [],
+      "evidence": [
+        {
+          "field": "drawing_revision",
+          "excerpt": "PRICE BASED ON DRAWING REV B"
+        },
+        {
+          "field": "price_tiers",
+          "excerpt": "USD 3,240.00 / 1,000 PCS"
+        },
+        {
+          "field": "moq",
+          "excerpt": "MOQ 25,000 PCS"
+        },
+        {
+          "field": "incoterm",
+          "excerpt": "FOB KAOHSIUNG"
+        },
+        {
+          "field": "freight_included",
+          "excerpt": "FREIGHT AND DUTY NOT INCLUDED"
+        }
+      ]
+    },
+    "brightwater": {
+      "supplier_name": "Brightwater Precision",
+      "part_number": "BRK-4471-A",
+      "drawing_revision": null,
+      "price_tiers": [
+        {
+          "minimum_quantity": 60000,
+          "maximum_quantity": null,
+          "unit_price": {
+            "amount": "4.40",
+            "currency": "USD"
+          }
+        }
+      ],
+      "moq": null,
+      "minimum_release_quantity": null,
+      "incoterm": "EXW",
+      "incoterm_location": "Queretaro",
+      "tooling_cost": null,
+      "tooling_notes": "TBD after engineering review",
+      "deposit": null,
+      "deposit_refundable": null,
+      "production_lead_time": {
+        "minimum": "6",
+        "maximum": "8",
+        "unit": "weeks"
+      },
+      "transit_lead_time": null,
+      "payment_terms": null,
+      "quote_validity_days": null,
+      "price_adjustment": null,
+      "freight_included": null,
+      "duty_included": null,
+      "packaging": null,
+      "inventory_commitment": "Four weeks of safety stock held at supplier at no charge",
+      "finishing": null,
+      "notes": [],
+      "evidence": [
+        {
+          "field": "price_tiers",
+          "excerpt": "around $4.40 a piece at your volumes"
+        },
+        {
+          "field": "incoterm",
+          "excerpt": "EXW Queretaro"
+        },
+        {
+          "field": "tooling_notes",
+          "excerpt": "Tooling we'd need to confirm"
+        },
+        {
+          "field": "inventory_commitment",
+          "excerpt": "carry four weeks of safety stock ... at no charge"
+        }
+      ]
+    }
+  },
+  "supplier_insights": [
+    {
+      "source_id": "tri-state",
+      "supplier_name": "Tri-State Metalcraft",
+      "selected_price": {
+        "unit_price": {
+          "amount": "4.85",
+          "currency": "USD"
+        },
+        "annual_material_cost": {
+          "amount": "291000.00",
+          "currency": "USD"
+        },
+        "tier_minimum_quantity": 60000,
+        "estimated_landed_cost": null,
+        "applied_assumptions": []
+      },
+      "one_time_costs": [
+        {
+          "amount": "6200",
+          "currency": "USD"
+        }
+      ],
+      "refundable_deposits": [],
+      "issues": [
+        {
+          "severity": "warning",
+          "category": "landed_cost",
+          "message": "FOB price is not a delivered landed cost.",
+          "evidence": "FOB our dock in Cleveland"
+        },
+        {
+          "severity": "info",
+          "category": "ordering_constraint",
+          "message": "Price requires releases of at least 5,000 units.",
+          "evidence": "releases of 5,000 or more"
+        }
+      ],
+      "missing_fields": [
+        "drawing revision"
+      ],
+      "clarification_questions": [
+        "Which drawing revision is this quote based on?",
+        "Please provide freight to Columbus, Ohio."
+      ]
+    },
+    {
+      "source_id": "nordkant",
+      "supplier_name": "Nordkant Präzisionsteile GmbH",
+      "selected_price": {
+        "unit_price": {
+          "amount": "3.92",
+          "currency": "EUR"
+        },
+        "annual_material_cost": {
+          "amount": "235200.00",
+          "currency": "EUR"
+        },
+        "tier_minimum_quantity": 60000,
+        "estimated_landed_cost": null,
+        "applied_assumptions": []
+      },
+      "one_time_costs": [],
+      "refundable_deposits": [
+        {
+          "amount": "2800",
+          "currency": "EUR"
+        }
+      ],
+      "issues": [
+        {
+          "severity": "warning",
+          "category": "price_exposure",
+          "message": "Price is adjustable: Quarterly LME aluminium index adjustment when movement exceeds 4%; base 2026 Q1.",
+          "evidence": "quarterly adjustment per LME aluminium index"
+        },
+        {
+          "severity": "info",
+          "category": "working_capital",
+          "message": "Refundable deposit requires EUR 2,800.00 cash outlay.",
+          "evidence": "deposit EUR 2,800 (refundable)"
+        }
+      ],
+      "missing_fields": [],
+      "clarification_questions": []
+    },
+    {
+      "source_id": "pacific-rim",
+      "supplier_name": "Pacific Rim Components",
+      "selected_price": {
+        "unit_price": {
+          "amount": "3.24",
+          "currency": "USD"
+        },
+        "annual_material_cost": {
+          "amount": "194400.00",
+          "currency": "USD"
+        },
+        "tier_minimum_quantity": 25000,
+        "estimated_landed_cost": null,
+        "applied_assumptions": []
+      },
+      "one_time_costs": [
+        {
+          "amount": "4800",
+          "currency": "USD"
+        }
+      ],
+      "refundable_deposits": [],
+      "issues": [
+        {
+          "severity": "warning",
+          "category": "landed_cost",
+          "message": "Headline price excludes freight and duty.",
+          "evidence": "FREIGHT AND DUTY NOT INCLUDED"
+        },
+        {
+          "severity": "warning",
+          "category": "working_capital",
+          "message": "Payment requires cash before delivery: 30% T/T deposit; 70% before shipment.",
+          "evidence": null
+        }
+      ],
+      "missing_fields": [
+        "quote validity"
+      ],
+      "clarification_questions": [
+        "Please provide freight to Columbus, Ohio.",
+        "What tariff classification and duty rate should we use?",
+        "How long is the quote valid?"
+      ]
+    },
+    {
+      "source_id": "brightwater",
+      "supplier_name": "Brightwater Precision",
+      "selected_price": {
+        "unit_price": {
+          "amount": "4.40",
+          "currency": "USD"
+        },
+        "annual_material_cost": {
+          "amount": "264000.00",
+          "currency": "USD"
+        },
+        "tier_minimum_quantity": 60000,
+        "estimated_landed_cost": null,
+        "applied_assumptions": []
+      },
+      "one_time_costs": [],
+      "refundable_deposits": [],
+      "issues": [
+        {
+          "severity": "warning",
+          "category": "landed_cost",
+          "message": "EXW price is not a delivered landed cost.",
+          "evidence": "EXW Queretaro"
+        },
+        {
+          "severity": "warning",
+          "category": "tooling",
+          "message": "Tooling cost is unresolved: TBD after engineering review.",
+          "evidence": "Tooling we'd need to confirm"
+        },
+        {
+          "severity": "info",
+          "category": "supply_continuity",
+          "message": "Four weeks of safety stock held at supplier at no charge",
+          "evidence": "carry four weeks of safety stock ... at no charge"
+        }
+      ],
+      "missing_fields": [
+        "drawing revision",
+        "payment terms",
+        "quote validity"
+      ],
+      "clarification_questions": [
+        "Which drawing revision is this quote based on?",
+        "Please provide freight to Columbus, Ohio.",
+        "Please confirm the tooling cost and payment timing.",
+        "How long is the quote valid?"
+      ]
+    }
+  ],
+  "cross_supplier_insights": [
+    "Quotes reference conflicting drawing revisions (B, C); prices are not specification-equivalent.",
+    "Quotes span EUR, USD; do not compare totals without an explicit FX assumption.",
+    "Delivery terms vary (DDP, EXW, FOB), so headline unit prices carry different logistics scope.",
+    "Within USD, quoted unit prices range from 3.24 (Pacific Rim Components) to 4.85 (Tri-State Metalcraft); delivery scope and gaps still differ."
+  ],
+  "disclaimer": "Decision support only: unknown terms are not estimated and no award recommendation is made."
+}

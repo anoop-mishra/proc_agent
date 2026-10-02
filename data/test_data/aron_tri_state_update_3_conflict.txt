@@ -1,0 +1,18 @@
+Supplier: Tri-State Metalcraft
+From: dmorrow@tristatemetalcraft.com
+To: karen@buyer.example
+Subject: RE: RFQ BRK-4471-A - revised timing and packaging
+Date: October 1, 2026 8:47 AM EDT
+
+Hi Karen,
+
+Following up on the original quote I sent over, I need to revise the lead
+time from 4 weeks to 5 weeks from release. This note was drafted before I
+saw the separate 3-week update from our production team.
+
+We can also ship the brackets in returnable totes at no additional charge.
+That packaging option is new; it does not change the unit price, tooling,
+release quantity, freight terms, payment terms, or price validity from the
+original quote.
+
+Dan
