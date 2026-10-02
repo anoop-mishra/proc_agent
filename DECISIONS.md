@@ -48,11 +48,18 @@ revisions. Current quote reads remain simple while stale partial updates use a t
 - The ingestion API stores artifact content in memory. Production must place immutable raw content
   in durable object storage and retain only checksums and object references in transactional data.
 
+## Guiding principle
+
+Prioritize high-confidence extraction, data-model refinement, and reliable update ordering and
+processing with minimal unresolved conflict. Once the canonical data is correct, the system can
+produce accurate, actionable insights configured to each buyer's priorities and preferences.
+
 ## With another day
 
-1. Add field-level confidence and an evidence-backed buyer correction workflow.
-2. Persist RFQs, quote versions, assumptions, and analysis lineage in Postgres.
-3. Add digital-PDF/email ingestion with file-level provenance.
-4. Build an evaluation set with intentionally adversarial and messy supplier replies.
-5. Add configurable buyer priorities before introducing scenario-based recommendations.
-6. Generate reviewed supplier clarification emails and track responses back into the comparison.
+1. Add field-level confidence alongside source evidence.
+2. Add a buyer feedback flow for correcting extracted values, validating edits, and recomputing the
+   analysis with an audit trail.
+3. Build an evaluation set of intentionally adversarial and messy supplier replies.
+4. Add configurable buyer priorities before introducing scenario-based recommendations.
+5. Refine the quote data model for multi-line bids, alternatives, and more complex commercial and
+   logistics terms.
